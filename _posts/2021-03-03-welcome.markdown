@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome to Court!"
+color: lime
+---
+
+This data set uses <em>Old Bailey Proceedings</em> to investigate how female medical practitioners understood the body. What knowledge did they use to impact criminal proceedings in the name of the crown? What medical misconceptions did they perpetuate or challenge? 
