@@ -1,10 +1,6 @@
 ---
 layout: page
-<<<<<<< Updated upstream
 title: About
-=======
-title: About Me
->>>>>>> Stashed changes
 permalink: /About/
 ---
 
