@@ -41,7 +41,7 @@ i.fa {
 }
 
 .mui-container {
-    max-width: 1050px;
+    max-width: 900px;
 }
 
 .site-appbar {
@@ -149,7 +149,7 @@ i.fa {
 
 article {
     &.mui-panel {
-        padding: 0px;
+        padding: 1px;
     }
 }
 
@@ -167,7 +167,7 @@ article {
     -webkit-background-size: cover;
     background-color: mui-color('blue-grey', '500');
     background-size: cover;
-    min-height: 180px;
+    min-height: 80px;
     position: relative;
 
     a {

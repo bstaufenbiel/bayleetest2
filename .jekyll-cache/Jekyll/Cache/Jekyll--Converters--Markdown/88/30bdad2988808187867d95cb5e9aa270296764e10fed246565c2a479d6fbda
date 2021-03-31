@@ -1,0 +1,10 @@
+I"Ì<p><em> Old Bailey Proceedings </em> XML Data</p>
+
+<p>The text data used for this project is from the <em> <a href="https://www.oldbaileyonline.org/">Old Bailey Proceedings</a>.</em> The OBP allows for individuals to download files in batches of 10 using their API.</p>
+
+<p>The data posted on this website is a plain-text rendering of 190 total cases between the years 1664-1789 downloaded in nineteen XML batches.</p>
+
+<p>On this page you will find a link to the original XML files used before the text was extracted, parsed, and cleaned using OxygenXML.</p>
+
+<p><a href="https://github.com/comp-methods-fsu-2021/StaufenbielCorpora/blob/6c8ec24fe0b6171dd1b0b7c753b36e63211f3a9a/OBPXMLDATA.zip">OBP XML LINK</a></p>
+:ET
