@@ -1,8 +1,8 @@
 ---
 layout: post
 title: New Visualizations 
-date: 04-06-2021
-color: green
+date: 2021-04-06
+color: grey
 ---
 
 New Visualizations
