@@ -13,4 +13,4 @@ I wanted to use R to render a new image of the court outcomes. The initial image
 
 The second image here shows the percentage breakdown of each category. Traditionally we think of women being persecuted for possible infanticide or other means of child death. However, the data shows that 2/3rds of the women are acquitted of their crimes.  
 
-<img src="OBPMarch13.png" alt="Percentage Visualization" width="1000" height="600">
+<a href="https://ibb.co/mqS58h5"><img src="https://i.ibb.co/d274gk4/OBPMarch13.png" alt="Percentage Visualization" border="0" width="1000" height="600"></a>
