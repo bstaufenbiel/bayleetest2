@@ -5,9 +5,28 @@
     <description>Midwives in England testifying in criminal court cases between 1674 and 1789.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Mar 2021 10:21:48 -0400</pubDate>
-    <lastBuildDate>Wed, 31 Mar 2021 10:21:48 -0400</lastBuildDate>
+    <pubDate>Tue, 06 Apr 2021 23:54:10 -0400</pubDate>
+    <lastBuildDate>Tue, 06 Apr 2021 23:54:10 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>New Visualizations</title>
+        <description>&lt;p&gt;New Visualizations&lt;/p&gt;
+
+&lt;p&gt;I wanted to use R to render a new image of the court outcomes. The initial image I have, while descriptive, does not show the sheer number of verdicts in each category. The first image here is a text plot that depicts each of the 191 verdicts in their color categorizations.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://drive.google.com/file/d/1778OlDC_IGN6Cuq-vsyttR4APPmi52s3/preview&quot; width=&quot;1000&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The second image here shows the percentage breakdown of each category. Traditionally we think of women being persecuted for possible infanticide or other means of child death. However, the data shows that 2/3rds of the women are acquitted of their crimes.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://drive.google.com/file/d/1zv8lCWA8_4heGEvEh1A9kCLtmklZIDkC/preview&quot; width=&quot;800&quot; height=&quot;680&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Tue, 06 Apr 2021 00:00:00 -0400</pubDate>
+        <link>/2021/04/06/new-visualization.html</link>
+        <guid isPermaLink="true">/2021/04/06/new-visualization.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>XML Data</title>
