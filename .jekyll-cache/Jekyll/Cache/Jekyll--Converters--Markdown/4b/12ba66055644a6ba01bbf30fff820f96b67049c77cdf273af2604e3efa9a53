@@ -1,0 +1,783 @@
+I"f<p><strong>Crime Locations</strong></p>
+
+<p>I wanted to greate a map that vizualized the many locations that each of the crimes took place. However, as expected, getting the geolocations for early City of London parishes is not the easiest task in the world. There are people who have attemped to do undertake such a project, but the maps are either overly detailed for the information that I want to display or hidden behind closed-sourced databases that are inaccessible.</p>
+
+<p>Here I have provided a table that shows the locations where the crime was supposedly committed. Furthermore I have also posted two images that show the outlines and some of the parishes from London that were accessible, though they do not depict every parish that appears in the court documents.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>Date</strong></th>
+      <th style="text-align: center"><strong>Location</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1675-01-15</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1675-04-14</td>
+      <td style="text-align: center">Parish of St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1675-04-14</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1676-04-05</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1676-12-13</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1677-01-17</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1677-04-25</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1677-06-01</td>
+      <td style="text-align: center">Parish of St. Giles’s Cripplegate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1677-09-06</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1677-12-12</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1678-01-16</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-02-26</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-04-30</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-04-30</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-04-30</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-07-16</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-10-15</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1679-12-10</td>
+      <td style="text-align: center">Parish of Islington</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1680-07-07</td>
+      <td style="text-align: center">Rosemary-Lane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1680-09-10</td>
+      <td style="text-align: center">Parish of St. Sepulchres</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1680-12-08</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1681-02-28</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1681-04-13</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1681-05-20</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1681-08-31</td>
+      <td style="text-align: center">St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1683-01-17</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1683-02-23</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1683-12-12</td>
+      <td style="text-align: center">Queenhithe</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1684-02-27</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1684-04-09</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1684-05-15</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1684-05-15</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1685-01-16</td>
+      <td style="text-align: center">St. Giles’s of Cripplegate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1685-01-16</td>
+      <td style="text-align: center">St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1685-10-14</td>
+      <td style="text-align: center">Parish of Twitnam</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1687-04-06</td>
+      <td style="text-align: center">St. Andrew’s Holbourn</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1687-05-12</td>
+      <td style="text-align: center">St. Giles’s of Cripplegate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1687-05-12</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1688-01-13</td>
+      <td style="text-align: center">Parish of Mary Woolnoth</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1688-12-05</td>
+      <td style="text-align: center">Parish Church of St. Gabriel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1689-07-03</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1689-12-11</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1690-06-05</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1690-09-03</td>
+      <td style="text-align: center">St. Paul’s Shadwel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-01-15</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-01-15</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-04-22</td>
+      <td style="text-align: center">Stepney</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-05-27</td>
+      <td style="text-align: center">Leather-Lane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-07-08</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-12-09</td>
+      <td style="text-align: center">Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1691-12-09</td>
+      <td style="text-align: center">Stepney</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1693-04-26</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1693-04-26</td>
+      <td style="text-align: center">Parish of Clerkenwell</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1693-07-13</td>
+      <td style="text-align: center">Parish of Islington</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1693-10-12</td>
+      <td style="text-align: center">Drury-Lane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1694-07-11</td>
+      <td style="text-align: center">Parish of Staines</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1695-10-14</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1696-02-27</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1696-09-09</td>
+      <td style="text-align: center">Parish of Istleworth</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1696-12-09</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1696-12-09</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1697-02-24</td>
+      <td style="text-align: center">Parish of St. Buttolphs without Algate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1697-07-07</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1698-01-14</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1698-02-23</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1702-01-14</td>
+      <td style="text-align: center">St. Paul’s Covent Garden</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1704-03-08</td>
+      <td style="text-align: center">St. Andrew’s Holbourn</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1704-03-08</td>
+      <td style="text-align: center">Parish of St. Michael Basishaw</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1708-01-15</td>
+      <td style="text-align: center">Parish of St. John Wapping</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1708-01-15</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1708-10-13</td>
+      <td style="text-align: center">St. Olives Silver-street</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1708-10-13</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1710-09-06</td>
+      <td style="text-align: center">Stepney</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1711-01-12</td>
+      <td style="text-align: center">St. Martin’ss in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1711-05-16</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1711-12-05</td>
+      <td style="text-align: center">St. Clement’s-Danes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1712-01-11</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1714-06-30</td>
+      <td style="text-align: center">Parish of St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1715-09-07</td>
+      <td style="text-align: center">Parish of Hackney</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1717-07-17</td>
+      <td style="text-align: center">St. Giles’s without Cripplegate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1717-09-11</td>
+      <td style="text-align: center">St. Ann’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1718-01-10</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1718-02-27</td>
+      <td style="text-align: center">Hatfield</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1718-07-09</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1718-07-09</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1718-10-15</td>
+      <td style="text-align: center">St. Andrew’s Holbourn</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1718-12-05</td>
+      <td style="text-align: center">St. Giles’s of Cripplegate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1719-09-03</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1719-10-04</td>
+      <td style="text-align: center">St. Dunstan at Stepney</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1719-12-04</td>
+      <td style="text-align: center">Parish of St. Brides</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1719-12-04</td>
+      <td style="text-align: center">St. Peter’s Poor</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1720-07-12</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1720-09-07</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1721-01-13</td>
+      <td style="text-align: center">Parish of St. Buttolphs without Algate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1721-05-25</td>
+      <td style="text-align: center">Chiswick</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1721-07-12</td>
+      <td style="text-align: center">Stoke-Newington</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1721-08-30</td>
+      <td style="text-align: center">Hanwell</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1721-08-30</td>
+      <td style="text-align: center">St. Leonard in Shoreditch</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1721-10-11</td>
+      <td style="text-align: center">Chelsea</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1722-09-07</td>
+      <td style="text-align: center">St. Dunstan in the West</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1723-01-16</td>
+      <td style="text-align: center">Parish of St. Buttolphs without Algate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1723-01-16</td>
+      <td style="text-align: center">St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1723-02-27</td>
+      <td style="text-align: center">Parish of St. Brides</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1723-02-27</td>
+      <td style="text-align: center">Parish of Uxbridge</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1724-02-26</td>
+      <td style="text-align: center">Parish of Islington</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1725-02-24</td>
+      <td style="text-align: center">South Mims</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1726-10-12</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1727-07-05</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1727-07-05</td>
+      <td style="text-align: center">Allhallows Barking</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1727-07-05</td>
+      <td style="text-align: center">St. James’s Clerkenwell</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1727-12-06</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1728-01-17</td>
+      <td style="text-align: center">Parish of St. George the Martyr</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1728-08-28</td>
+      <td style="text-align: center">St. Peter Cornhill</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1729-02-26</td>
+      <td style="text-align: center">St. Mary Whitechapel</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1729-04-16</td>
+      <td style="text-align: center">New St. Giles’s</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1729-05-21</td>
+      <td style="text-align: center">St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1730-08-28</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1731-01-15</td>
+      <td style="text-align: center">St. Andrew’s Holbourn</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1731-07-14</td>
+      <td style="text-align: center">Fulham</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1732-04-19</td>
+      <td style="text-align: center">St. Giles’s of Cripplegate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1733-10-10</td>
+      <td style="text-align: center">Kent</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1733-12-05</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1734-04-24</td>
+      <td style="text-align: center">Stoke-Newington</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1734-06-30</td>
+      <td style="text-align: center">St. John’s-Lane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1735-01-16</td>
+      <td style="text-align: center">Moorfields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1735-04-16</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1735-09-11</td>
+      <td style="text-align: center">Queen Street</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1736-12-08</td>
+      <td style="text-align: center">Heston</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1736-12-08</td>
+      <td style="text-align: center">St. Andrew’s Holbourn</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1737-02-16</td>
+      <td style="text-align: center">Moorfields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1737-04-20</td>
+      <td style="text-align: center">St. Andrew’s Holbourn</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1737-10-12</td>
+      <td style="text-align: center">Parish of St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1738-06-28</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1739-09-06</td>
+      <td style="text-align: center">Parish of Isleworth</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1740-04-16</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1741-05-14</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1741-10-14</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1742-12-08</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1743-04-13</td>
+      <td style="text-align: center">Chelsea</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1743-10-12</td>
+      <td style="text-align: center">Harefield</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1743-10-12</td>
+      <td style="text-align: center">St. Margaret’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1743-12-07</td>
+      <td style="text-align: center">St. Martin’s Ironmonger-Lane</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1744-02-23</td>
+      <td style="text-align: center">St. Mary-le-Bonne</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1744-05-10</td>
+      <td style="text-align: center">St. Giles’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1745-10-16</td>
+      <td style="text-align: center">St. Leonard Shoreditch</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1746-04-09</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1746-10-15</td>
+      <td style="text-align: center">Milk-Street</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1747-02-25</td>
+      <td style="text-align: center">Parish of Holy Trinity</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1747-09-09</td>
+      <td style="text-align: center">Chambers-street</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1750-01-17</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1750-09-12</td>
+      <td style="text-align: center">Sunbury</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1751-01-16</td>
+      <td style="text-align: center">Shoreditch</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1752-09-14</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1752-09-14</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1753-10-24</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1754-02-27</td>
+      <td style="text-align: center">Knightsbridge</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1754-12-04</td>
+      <td style="text-align: center">“Bow-lane, Cheapside”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1755-07-02</td>
+      <td style="text-align: center">Highgate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1755-12-04</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1756-07-14</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1757-05-26</td>
+      <td style="text-align: center">Highgate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1760-01-16</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1760-02-27</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1760-05-21</td>
+      <td style="text-align: center">Paddington</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1761-10-21</td>
+      <td style="text-align: center">Parish of St. George the Martyr</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1761-10-21</td>
+      <td style="text-align: center">Parish of St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1762-04-21</td>
+      <td style="text-align: center">Chelsea</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1762-12-08</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1762-12-08</td>
+      <td style="text-align: center">Jewin-street</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1765-09-18</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1766-07-02</td>
+      <td style="text-align: center">Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1766-12-17</td>
+      <td style="text-align: center">Parish of South Mims</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1767-04-29</td>
+      <td style="text-align: center">Parish of Bethnal Green</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1768-02-24</td>
+      <td style="text-align: center">Horton-street</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1769-06-28</td>
+      <td style="text-align: center">Edmonton</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1770-10-24</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1771-04-10</td>
+      <td style="text-align: center">Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1771-09-11</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1773-10-20</td>
+      <td style="text-align: center">“Parish of St. Luke, Chelsea”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1774-05-18</td>
+      <td style="text-align: center">Cow Cross</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1775-12-06</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1778-12-09</td>
+      <td style="text-align: center">Middlesex</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1779-02-17</td>
+      <td style="text-align: center">Unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1779-09-15</td>
+      <td style="text-align: center">London</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1781-05-30</td>
+      <td style="text-align: center">Middlesex</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1781-05-30</td>
+      <td style="text-align: center">St. Martin’s in the Fields</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1781-07-11</td>
+      <td style="text-align: center">Mary-le-bonne</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1782-07-03</td>
+      <td style="text-align: center">Middlesex</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1784-09-15</td>
+      <td style="text-align: center">St. James’s Westminster</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1788-09-10</td>
+      <td style="text-align: center">Parish of Tottenham-high-cross</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1788-09-10</td>
+      <td style="text-align: center">Parish of Bethnal Green</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="2021-04-13-Civil-Parishes.png" alt="Parish Map" /></p>
+:ET
