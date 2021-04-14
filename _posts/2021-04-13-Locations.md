@@ -205,4 +205,4 @@ Here I have provided a table that shows the locations where the crime was suppos
 | 1788\-09\-10 | Parish of Tottenham\-high\-cross        |
 | 1788\-09\-10 | Parish of Bethnal Green                 |
 
-![Parish Map](/2021/04/13/2021-04-13-Locations-Civil-Parishes.png)
+<iframe src="https://drive.google.com/file/d/1opS9S-KGZYdBpR_xLH5353QIGjgCZKFM/preview" width="1000" height="800"></iframe>
